@@ -5,10 +5,17 @@ package ex;
  * Author: 1050210XX 周永振老師
  */
 
-public class ex03_1050210XX {
+import java.util.Scanner;
+
+public class ex03_105021041 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Scanner scn = new Scanner(System.in);
+		int a = scn.nextInt();
+		int b = scn.nextInt();
+		System.out.println(Math.pow(a,b));
 
 	}
 

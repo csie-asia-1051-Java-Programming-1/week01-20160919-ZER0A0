@@ -5,10 +5,17 @@ package ex;
  * Author: 1050210XX 周永振老師
  */
 
-public class ex01_1050210XX {
+import java.util.Scanner;
+
+public class ex01_105021041 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Scanner scn = new Scanner(System.in);
+		int a = scn.nextInt();
+		int b = (a-32)*5/9;
+		System.out.println("攝氏 = " + b);
 
 	}
 
